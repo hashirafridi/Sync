@@ -1,0 +1,27 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+*/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Signing material and secrets must never be committed.
+*.jks
+*.keystore
+keystore.properties
+
+# Anything suffixed .local.md holds credentials for humans to read.
+*.local.md
+
+# Built APKs. Large binaries do not belong in git, and the universal build exceeds
+# GitHub's per-file limit anyway.
+/dist/
+*.apk
+*.aab
+config.bat
+node_modules

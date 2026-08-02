@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Deliberately parented on the platform Material theme rather than AppCompat.
+         The UI is entirely Compose, so pulling in AppCompat would add a dependency
+         nothing actually uses. This exists only to give the Activity window a sane
+         starting appearance before Compose takes over. -->
+    <style name="Theme.FbPublisher" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

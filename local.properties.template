@@ -1,0 +1,8 @@
+# Template for local.properties -- copy to `local.properties` and fill in.
+# local.properties is git-ignored; this template is committed.
+
+sdk.dir=<path to your Android SDK>
+
+FACEBOOK_APP_ID=<app id from developers.facebook.com>
+FACEBOOK_CLIENT_TOKEN=<Settings -> Advanced -> Client Token>
+FACEBOOK_APP_SECRET=<Settings -> Basic -> App Secret>
